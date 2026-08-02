@@ -34,9 +34,6 @@ A complete BI Analyst case study built on the IBM HR Attrition dataset (1,470 em
 
 <div align="center">
 <img src="Assets/Screenshots/Overview_Page.png" width="85%" alt="Overview dashboard page"/>
-
-*Add a screen recording of the dashboard as `Assets/Screenshots/dashboard-demo.gif` to make this section fully animated — see the [tip](#-make-it-fully-animated) at the bottom.*
-
 </div>
 
 ---
@@ -210,21 +207,6 @@ Query file: [`Report/attrition_by_department.sql`](Report/attrition_by_departmen
 ![Word](https://img.shields.io/badge/Microsoft_Word-2B579A?style=for-the-badge&logo=microsoftword&logoColor=white)
 
 </div>
-
----
-
-## 🎞️ Make it fully animated
-
-To take this README from "animated badges" to a truly moving demo:
-
-1. Record a 15–20 second screen capture while clicking through the dashboard (Xbox Game Bar on Windows: `Win + Alt + R`)
-2. Convert it to a `.gif` (e.g. [ezgif.com/video-to-gif](https://ezgif.com/video-to-gif)) — keep it under ~10MB
-3. Save it as `Assets/Screenshots/dashboard-demo.gif`
-4. Replace the preview image line above with:
-   ```md
-   ![Dashboard Demo](Assets/Screenshots/dashboard-demo.gif)
-   ```
-GitHub will autoplay the GIF for every visitor — this is the single biggest upgrade you can make to a Power BI repo's README.
 
 ---
 
