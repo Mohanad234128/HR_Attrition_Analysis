@@ -121,10 +121,6 @@ One `Fact_Employee` table (grain: **one row = one employee**) connected to 8 dim
 
 </div>
 
-<div align="center">
-<img src="Assets/Screenshots/Measures.png" width="60%" alt="DAX measures organized in display folders"/>
-</div>
-
 Full DAX code lives in [`Report/HR_Attrition_Report.docx`](Report/HR_Attrition_Report.docx).
 
 ```dax
