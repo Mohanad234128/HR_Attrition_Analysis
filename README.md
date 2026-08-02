@@ -9,6 +9,7 @@
 ![Power BI](https://img.shields.io/badge/Power_BI-F2C811?style=for-the-badge&logo=powerbi&logoColor=black)
 ![DAX](https://img.shields.io/badge/DAX-2E75B6?style=for-the-badge&logo=microsoft&logoColor=white)
 ![SQL](https://img.shields.io/badge/SQL-C00000?style=for-the-badge&logo=postgresql&logoColor=white)
+![Excel](https://img.shields.io/badge/Excel-217346?style=for-the-badge&logo=microsoftexcel&logoColor=white)
 ![Status](https://img.shields.io/badge/Status-Complete-548235?style=for-the-badge)
 
 </div>
@@ -53,11 +54,13 @@ HR_Attrition_Analysis/
 │   │   ├── filter.png
 │   │   └── hr-manager.png
 │   └── Screenshots/
-│       ├── Home_Page.png
-│       ├── Overview_Page.png
+│       ├── Data_Modeling.png
 │       ├── Drivers_Page.png
-│       ├── Trands_outliers_Page.png
-│       └── Recommendations_Page.png
+│       ├── Home_Page.png
+│       ├── Measures.png
+│       ├── Overview_Page.png
+│       ├── Recommendations_Page.png
+│       └── Trands_outliers_Page.png
 ├── Dashboard/
 │   └── HR Attrition Dashboard.pbix
 ├── Data/
@@ -87,6 +90,10 @@ One `Fact_Employee` table (grain: **one row = one employee**) connected to 8 dim
 
 > All categorical/text columns live only inside their dimension table — the fact table stores numeric measures and surrogate keys only, keeping the model fast and clean.
 
+<div align="center">
+<img src="Assets/Screenshots/Data_Modeling.png" width="85%" alt="Star schema data model in Power BI"/>
+</div>
+
 <details>
 <summary><b>📐 Click to see relationship rules</b></summary>
 <br/>
@@ -112,6 +119,10 @@ One `Fact_Employee` table (grain: **one row = one employee**) connected to 8 dim
 | **OverTime Analysis** | OverTime / No-OverTime Attrition Rate % |
 | **Risk Segments** | Highest-Risk JobRole · JobLevel 1 · Zero Stock Option · High Risk Segment · JobRole Rank |
 
+</div>
+
+<div align="center">
+<img src="Assets/Screenshots/Measures.png" width="60%" alt="DAX measures organized in display folders"/>
 </div>
 
 Full DAX code lives in [`Report/HR_Attrition_Report.docx`](Report/HR_Attrition_Report.docx).
